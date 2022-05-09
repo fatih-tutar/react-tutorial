@@ -1,9 +1,15 @@
 import './App.css';
+import TextComponent from './TextComponent';
 
 function App() {
   return (
     <div className="App">
-      Hello World!
+      <TextComponent/>
+      <TextComponent/>
+      <TextComponent/>
+      <TextComponent/>
+      <TextComponent/>
+      <TextComponent/>
     </div>
   );
 }
