@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Variables() {
-    const title = <h1>03 - Variables</h1>
+    const title = <h1>05 - Variables</h1>
     const name = 'Fatih';
     const birthYear = 1993
     const howOldAreYou = () => 2022 - birthYear
