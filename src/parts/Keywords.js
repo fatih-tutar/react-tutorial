@@ -3,7 +3,7 @@ import React from 'react'
 export default function Keywords() {
   return (
     <>
-        <h1> - - - HTML and JSX Keywords Differences - - - </h1>
+        <h1> 02 - HTML and JSX Keywords Differences </h1>
         <input type="checkbox" defaultChecked/>
         <br/>
         <span className='name'>Fatih</span>

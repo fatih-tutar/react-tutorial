@@ -1,12 +1,14 @@
 import './App.css';
 import Keywords from './parts/Keywords';
-import TextComponent from './TextComponent';
+import TextComponent from './parts/TextComponent';
+import Variables from './parts/Variables';
 
 function App() {
   return (
     <div className="App">
-      <TextComponent/>
+      <Variables/>
       <Keywords/>
+      <TextComponent/>
     </div>
   );
 }
