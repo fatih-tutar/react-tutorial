@@ -1,4 +1,5 @@
 import './App.css';
+import Counter from './parts/Counter';
 import Keywords from './parts/Keywords';
 import Props from './parts/Props';
 import PropsCC from './parts/PropsCC';
@@ -10,6 +11,11 @@ import WeatherFC from './parts/WeatherFC';
 function App() {
   return (
     <div className="App">
+      <h1>10 - Using State in Class Component</h1>
+      <Counter/>
+      <h1>09 - Setting Default Props Values in a Component</h1>
+      <Props/>
+      <PropsCC/>
       <h1>08 - Using Props in Class Component</h1>
       <PropsCC status={"snowy"} style={{background:"black", color:"grey"}}/>
       <h1>07 - Using Props in Function Component</h1>

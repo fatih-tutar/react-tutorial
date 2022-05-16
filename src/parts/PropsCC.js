@@ -8,4 +8,9 @@ class PropsCC extends Component {
   }
 }
 
+PropsCC.defaultProps = {
+  status : "sunny",
+  style : { backgroundColor : 'yellow', color : 'black' }
+}
+
 export default PropsCC
