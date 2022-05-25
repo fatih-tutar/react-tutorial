@@ -3,6 +3,7 @@ import Counter from './parts/Counter';
 import Keywords from './parts/Keywords';
 import Props from './parts/Props';
 import PropsCC from './parts/PropsCC';
+import Recorder from './parts/Recorder';
 import TextComponent from './parts/TextComponent';
 import Variables from './parts/Variables';
 import WeatherCC from './parts/WeatherCC';
@@ -11,6 +12,8 @@ import WeatherFC from './parts/WeatherFC';
 function App() {
   return (
     <div className="App">
+      <h1>20 - Using Function Component useState</h1>
+      <Recorder/>
       <h1>10 - Using State in Class Component</h1>
       <Counter/>
       <h1>09 - Setting Default Props Values in a Component</h1>
