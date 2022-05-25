@@ -12,7 +12,7 @@ import WeatherFC from './parts/WeatherFC';
 function App() {
   return (
     <div className="App">
-      <h1>20 - Using Function Component useState</h1>
+      <h1>20 - Using Function Component useState / 21 - Using useEffect</h1>
       <Recorder/>
       <h1>10 - Using State in Class Component</h1>
       <Counter/>
